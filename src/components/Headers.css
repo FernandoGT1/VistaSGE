@@ -1,0 +1,93 @@
+.header {
+  background-color: #78B9B1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-circle {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.student-header {
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid black; /* Línea divisoria */
+  text-align: left; /* Ajustar alineación del texto */
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start; /* Alinear elementos a la izquierda */
+}
+
+.input-section {
+  margin-bottom: 20px; /* Aumentar espacio entre secciones */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra para el efecto de flotación */
+  border-radius: 4px; /* Agregar bordes redondeados */
+  width: 50vw; /* Abarcar la mitad de la pantalla */
+}
+
+.input-section label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block; /* Para que el label ocupe todo el ancho */
+}
+
+.input-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Ajustar el ancho del campo de entrada al 100% */
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row; /* Alinear elementos horizontalmente */
+  align-items: flex-start; /* Alinear elementos al inicio verticalmente */
+  margin-top: 20px;
+}
+
+.project-objective {
+  width: 50vw; /* Abarcar la mitad de la pantalla */
+  margin-right: 10px; /* Añadir margen a la derecha para separar del botón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra para el efecto de flotación */
+  border-radius: 4px; /* Agregar bordes redondeados */
+  padding: 10px; /* Agregar espacio interior */
+}
+
+.edit,
+.download {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
